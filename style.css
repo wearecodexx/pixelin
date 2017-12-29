@@ -47,3 +47,28 @@ span.FFA9FB{background:#FFA9FB;}
 .control.active{
   background:#70FF61;
 }
+
+/** color palette**/
+.colorpalette{height: 30px;}
+.colorpalette .jscolor{
+  height:25px; width: 25px;
+  border:#888 1px dashed;
+  float:left;
+  border-radius:3px;
+  margin:2px;
+  cursor:pointer;
+}
+
+/** color picker**/
+#colorpicker{
+  padding:30px;
+  background:#E6E6E6;
+}
+#colorpicker .jscolor{
+  height:150px; width:150px;
+  border:#ccc 1px solid;
+  border-radius:5px;
+  text-align:center;
+  line-height: 150px;
+}
+#colorpicker h2{text-align: left;}

@@ -7,7 +7,7 @@
   <title>Pixelin Onigiri</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="pixelin.js"></script>
+
 </head>
 <body>
   <div class="all">
@@ -78,7 +78,19 @@
       <div class="clear"></div>
 
     </div><!--canvas-->
-    <div id="controllers" class="pull-left">
+    <div class="clear"></div>
+    <div class="colorpalette">
+      <h3>Change colors</h3>
+
+    <input class="jscolor" onchange="update(this.jscolor)" value="474747">
+    <input class="jscolor" onchange="updateF2F2F2(this.jscolor)" value='F2F2F2'>
+    <input class="jscolor" onchange="updatec4F0B89(this.jscolor)" value='4F0B89'>
+    <input class="jscolor" onchange="updateFFA9FB(this.jscolor)" value='FFA9FB'>
+    <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="controllers" >
+      <h3>Change shape</h3>
       <span class="control active" id="square"></span>
       <span class="control" id="round"></span>
 
@@ -87,5 +99,18 @@
   </section><!--/content-->
   <div class="clear"></div>
 </div><!--/all-->
+
+<section id="colorpicker">
+  <h2>Color picker</h2>
+  <p>Click in the input below to choose a new color.</p>
+  <input class="jscolor">
+  <p>Color picker by <a href="http://jscolor.com/download/" target="_blank">jscolor</a>.
+</section>
+
+
+
+
+<script src="jscolor.min.js"></script>
+<script src="pixelin.js"></script>
 </body>
 </html>

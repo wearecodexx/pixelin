@@ -1,3 +1,4 @@
+$(document).ready() {
 $(function() {                       //run when the DOM is ready
   $('#round').click(function() {  //use a class, since your ID gets mangled
     $('#controllers .control').removeClass('active')
@@ -30,3 +31,4 @@ function updateFFA9FB(jscolor) {
     // 'jscolor1' instance can be used as a string
     $('#canvas span.FFA9FB').css('background', '#' + jscolor)
 }
+};

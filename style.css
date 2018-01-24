@@ -7,7 +7,7 @@ body{
 }
 h1, h2, h3{margin:0; text-align: center; font-family:'VT323'; font-weight:normal;}
 .all{
-  margin:20px auto;
+  margin:20px 10px;
   border-radius:5px;
   box-shadow:-3px 3px 3px #ccc;
   width: 140px;
@@ -21,18 +21,25 @@ h1, h2, h3{margin:0; text-align: center; font-family:'VT323'; font-weight:normal
 }
 .pull-left{float:left;}
 .clear{clear: both;}
-#canvas{
+.canvas{
 background: #474747;
 
 }
-#canvas span{
+.canvas span{
   height: 10px; width: 10px; float: left;
 }
-#canvas span.round{border-radius:50%;}
+#hamburger{width:210px}
+.canvas span.round{border-radius:50%;}
 span.AD57FF{background:#AD57FF;}
 span.F2F2F2{background:#F2F2F2;}
 span.c4F0B89{background:#4F0B89;}
 span.FFA9FB{background:#FFA9FB;}
+span.c000{background:#000;}
+.F0DDB9{background:#F0DDB9;}
+.D1A873{background:#D1A873;}
+.FF4545{background:#FF4545;}
+.c00BF59{background:#00BF59;}
+.c78FF85{background:#78FF85}
 #controllers{}
 .control{
   height:30px; width:30px;
